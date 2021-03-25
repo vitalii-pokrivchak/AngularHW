@@ -1,0 +1,16 @@
+<input type="number" [(ngModel)]="value" min="1" max="12" />
+
+<div [ngSwitch]="value">
+  <p *ngSwitchCase="1">{{ months[0] }}</p>
+  <p *ngSwitchCase="2">{{ months[1] }}</p>
+  <p *ngSwitchCase="3">{{ months[2] }}</p>
+  <p *ngSwitchCase="4">{{ months[3] }}</p>
+  <p *ngSwitchCase="5">{{ months[4] }}</p>
+  <p *ngSwitchCase="6">{{ months[5] }}</p>
+  <p *ngSwitchCase="7">{{ months[6] }}</p>
+  <p *ngSwitchCase="8">{{ months[7] }}</p>
+  <p *ngSwitchCase="9">{{ months[8] }}</p>
+  <p *ngSwitchCase="10">{{ months[9] }}</p>
+  <p *ngSwitchCase="11">{{ months[10] }}</p>
+  <p *ngSwitchCase="12">{{ months[11] }}</p>
+</div>
